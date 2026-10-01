@@ -35,6 +35,11 @@ export default function Skills() {
             </Reveal>
           ))}
         </div>
+
+        <div className="mt-12 max-w-full">
+          <div className={`mb-5 h-px w-16 bg-gold-500`} />
+          <p className="text-sm text-ink-500 dark:text-ink-300">"Persentase merupakan gambaran tingkat penguasaan berdasarkan pengalaman akademik, praktik, proyek, dan pembelajaran yang telah dilakukan."</p>
+        </div>
       </div>
     </section>
   );

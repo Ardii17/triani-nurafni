@@ -10,11 +10,10 @@ export const profile = {
   tagline: "Teliti pada Angka, Terstruktur dalam Setiap Proses",
   summary:
     "Lulusan Sarjana Akuntansi (S.Ak.) Universitas Muhammadiyah Bandung dengan IPK 3,76/4,00 dan minat pada financial accounting, financial reporting, perpajakan, serta audit. Terbiasa bekerja secara teliti dan sistematis dalam mengolah data, memverifikasi informasi keuangan, dan memastikan setiap proses berjalan sesuai prosedur.",
-  location: "Bandung, Jawa Barat, Indonesia",
-  email: "trianinurafni@email.com",
-  phone: "+62 812-3456-7890",
+  location: "Tasikmalaya, Jawa Barat, Indonesia",
+  email: "trianinurafni03@gmail.com",
+  phone: "+62 821-3090-2040",
   linkedin: "linkedin.com/in/trianinurafni",
-  github: "github.com/Ardii17",
   cvFile: "/CV.pdf",
   availability: "Terbuka untuk posisi Accounting, Finance, Tax, atau Audit (Fresh Graduate)",
 };
@@ -43,42 +42,42 @@ export type Skill = { name: string; level: number; note: string };
 export const skills: Skill[] = [
   {
     name: "Akuntansi & Pelaporan Keuangan",
-    level: 92,
+    level: 86,
     note: "Siklus akuntansi, jurnal, buku besar, penyusunan laporan keuangan, serta administrasi keuangan",
   },
   {
     name: "Perpajakan",
-    level: 90,
+    level: 80,
     note: "PPh Orang Pribadi, pelaporan SPT Tahunan, administrasi perpajakan (Brevet A & B, CTT)",
   },
   {
     name: "Audit & Dokumentasi",
-    level: 86,
+    level: 75,
     note: "Prosedur audit, penyusunan kertas kerja, identifikasi temuan, dan rekomendasi (ATLAS)",
   },
   {
     name: "Accurate Accounting Software",
-    level: 88,
+    level: 72,
     note: "Pencatatan transaksi dan penyusunan laporan keuangan terkomputerisasi",
   },
   {
     name: "Microsoft Excel",
-    level: 90,
+    level: 80,
     note: "Pengolahan data keuangan, formula spreadsheet, dan rekapitulasi transaksi",
   },
   {
     name: "Analisis Data SPSS",
-    level: 85,
+    level: 75,
     note: "Uji validitas, uji reliabilitas, dan analisis data statistik kuantitatif",
   },
   {
     name: "Software ATLAS",
-    level: 84,
+    level: 72,
     note: "Penyusunan kertas kerja audit dan dokumentasi prosedur pemeriksaan",
   },
   {
     name: "Administrasi & Tata Kelola Keuangan",
-    level: 90,
+    level: 88,
     note: "Pengarsipan bukti transaksi, penyusunan LPJ, dan manajemen kas",
   },
 ];
