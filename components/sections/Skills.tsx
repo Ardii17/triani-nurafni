@@ -9,7 +9,7 @@ export default function Skills() {
         <SectionHeading
           eyebrow="02 · Keahlian"
           title="Kompetensi inti di bidang akuntansi & keuangan"
-          description="Tingkat penguasaan berdasarkan pengalaman akademik, magang, dan proyek yang telah dikerjakan."
+          description="Kompetensi akuntansi, perpajakan, audit, serta software akuntansi dan analisis data."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

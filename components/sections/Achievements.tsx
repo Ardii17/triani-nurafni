@@ -7,6 +7,7 @@ const categoryColor: Record<string, string> = {
   Kompetisi: "text-gold-600 dark:text-gold-400",
   Beasiswa: "text-balance-600 dark:text-balance-400",
   Organisasi: "text-ink-700 dark:text-ink-300",
+  Penghargaan: "text-gold-600 dark:text-gold-400",
 };
 
 export default function Achievements() {
@@ -27,7 +28,19 @@ export default function Achievements() {
                 </h3>
                 <p className="text-sm text-ink-500 dark:text-ink-300">{item.issuer}</p>
               </div>
-              <span className="font-mono text-sm tabular text-ink-500 dark:text-ink-300">{item.year}</span>
+              <div className="flex items-center gap-3">
+                <span className="font-mono text-sm tabular text-ink-500 dark:text-ink-300">{item.year}</span>
+                {item.link && (
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="shrink-0 rounded-full border border-navy-900/20 px-3 py-1 font-mono text-[11px] text-navy-900 transition-colors hover:border-gold-500 hover:text-gold-600 dark:border-paper/20 dark:text-paper dark:hover:border-gold-400 dark:hover:text-gold-400"
+                  >
+                    Lihat
+                  </a>
+                )}
+              </div>
             </div>
           </Reveal>
         ))}

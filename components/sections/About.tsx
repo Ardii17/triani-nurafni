@@ -4,7 +4,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 export default function About() {
   return (
     <section id="about" className="container-page py-20 sm:py-24">
-      <SectionHeading eyebrow="01 · Tentang Saya" title="Profil profesional yang teliti dengan angka" />
+      <SectionHeading eyebrow="01 · Tentang Saya" title="Teliti pada angka, terstruktur dalam setiap proses" />
 
       <div className="grid gap-12 lg:grid-cols-[1.3fr_0.7fr]">
         <div className="space-y-5">
@@ -33,7 +33,15 @@ export default function About() {
           <dl className="space-y-3 text-sm">
             <div className="flex justify-between gap-4">
               <dt className="text-ink-500 dark:text-ink-300">Gelar</dt>
-              <dd className="text-right font-medium text-navy-900 dark:text-paper">{profile.fullDegree}</dd>
+              <dd className="text-right font-medium text-navy-900 dark:text-paper">{profile.fullDegree} ({profile.degree})</dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-ink-500 dark:text-ink-300">Almamater</dt>
+              <dd className="text-right font-medium text-navy-900 dark:text-paper">Univ. Muhammadiyah Bandung</dd>
+            </div>
+            <div className="flex justify-between gap-4">
+              <dt className="text-ink-500 dark:text-ink-300">IPK</dt>
+              <dd className="text-right font-mono font-medium text-gold-600 dark:text-gold-400">3,76 / 4,00</dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt className="text-ink-500 dark:text-ink-300">Lokasi</dt>

@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
               href={profile.cvFile}
-              download
+              download="CV-Triani-Nurafni.pdf"
               className="rounded-full bg-navy-900 px-6 py-3 font-mono text-[13px] tracking-wide text-paper shadow-sm transition-transform hover:-translate-y-0.5 hover:bg-navy-800 dark:bg-gold-500 dark:text-navy-950 dark:hover:bg-gold-400"
             >
               Download CV

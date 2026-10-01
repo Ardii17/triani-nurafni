@@ -50,7 +50,7 @@ export default function Navbar() {
           <ThemeToggle />
           <a
             href={profile.cvFile}
-            download
+            download="CV-Triani-Nurafni.pdf"
             className="hidden rounded-full bg-navy-900 px-4 py-2 font-mono text-[12px] tracking-wide text-paper transition-colors hover:bg-navy-800 dark:bg-gold-500 dark:text-navy-950 dark:hover:bg-gold-400 sm:inline-block"
           >
             Download CV
@@ -83,7 +83,7 @@ export default function Navbar() {
             ))}
             <a
               href={profile.cvFile}
-              download
+              download="CV-Triani-Nurafni.pdf"
               className="mt-2 rounded-full bg-navy-900 px-4 py-2.5 text-center font-mono text-[12px] tracking-wide text-paper dark:bg-gold-500 dark:text-navy-950"
             >
               Download CV

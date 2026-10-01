@@ -7,8 +7,8 @@ export default function Projects() {
     <section id="projects" className="container-page py-20 sm:py-24">
       <SectionHeading
         eyebrow="05 · Proyek"
-        title="Proyek & studi kasus akuntansi"
-        description="Kumpulan proyek akademik dan simulasi yang merepresentasikan cara kerja saya dengan data keuangan."
+        title="Proyek & Studi Kasus"
+        description="Proyek akademik dan praktik yang menjadi sarana menerapkan ilmu akuntansi, audit, perpajakan, software akuntansi, dan analisis data."
       />
 
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -38,6 +38,18 @@ export default function Projects() {
                 <p className="text-xs leading-relaxed text-balance-600 dark:text-balance-400">
                   <span className="font-semibold">Insight:</span> {project.outcome}
                 </p>
+                {project.certificateLink && (
+                  <div className="mt-2.5">
+                    <a
+                      href={project.certificateLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 font-mono text-[11px] text-navy-800 underline decoration-dashed underline-offset-4 transition-colors hover:text-gold-600 dark:text-paper dark:hover:text-gold-400"
+                    >
+                      Lihat Sertifikat Terkait ↗
+                    </a>
+                  </div>
+                )}
               </div>
             </article>
           </Reveal>

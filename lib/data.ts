@@ -1,55 +1,86 @@
 // =============================================================
-// SEMUA KONTEN DI SINI. Ganti data dummy di bawah dengan data
-// asli Anda — nama, riwayat pendidikan, pengalaman, dsb.
+// DATA PORTOFOLIO TRIANI NURAFNI, S.Ak.
+// Diperbarui berdasarkan dokumen kurikulum dan portofolio resmi.
 // =============================================================
 
 export const profile = {
-  name: "Amelia Putri Wardhani",
+  name: "Triani Nurafni",
   degree: "S.Ak.",
   fullDegree: "Sarjana Akuntansi",
-  tagline: "Accounting Graduate — Financial Reporting · Taxation · Financial Analysis",
+  tagline: "Teliti pada Angka, Terstruktur dalam Setiap Proses",
   summary:
-    "Lulusan Akuntansi dengan pemahaman kuat pada penyusunan laporan keuangan, perpajakan, dan analisis data keuangan. Terbiasa bekerja teliti dengan tenggat waktu, dan nyaman menerjemahkan angka menjadi keputusan yang jelas.",
-  location: "Jakarta Selatan, Indonesia",
-  email: "amelia.wardhani@email.com",
+    "Lulusan Sarjana Akuntansi (S.Ak.) Universitas Muhammadiyah Bandung dengan IPK 3,76/4,00 dan minat pada financial accounting, financial reporting, perpajakan, serta audit. Terbiasa bekerja secara teliti dan sistematis dalam mengolah data, memverifikasi informasi keuangan, dan memastikan setiap proses berjalan sesuai prosedur.",
+  location: "Bandung, Jawa Barat, Indonesia",
+  email: "trianinurafni@email.com",
   phone: "+62 812-3456-7890",
-  linkedin: "linkedin.com/in/ameliawardhani",
-  github: "github.com/ameliawardhani",
-  cvFile: "/cv-amelia-wardhani.pdf",
-  availability: "Terbuka untuk posisi entry-level di bidang akuntansi & keuangan",
+  linkedin: "linkedin.com/in/trianinurafni",
+  github: "github.com/Ardii17",
+  cvFile: "/CV.pdf",
+  availability: "Terbuka untuk posisi Accounting, Finance, Tax, atau Audit (Fresh Graduate)",
 };
 
 export const about = {
   paragraphs: [
-    "Saya seorang lulusan Sarjana Akuntansi (S.Ak.) dari Universitas Indonesia dengan minat khusus pada financial reporting, perpajakan, dan analisis laporan keuangan. Selama masa studi, saya membangun kebiasaan kerja yang teliti — memeriksa dua kali sebelum menyimpulkan satu kali.",
-    "Saya memahami siklus akuntansi dari pencatatan transaksi hingga penyusunan laporan keuangan sesuai SAK, termasuk rekonsiliasi, penyusunan neraca saldo, dan pelaporan pajak dasar. Saya juga terbiasa mengolah data keuangan dalam jumlah besar menggunakan Excel dan software akuntansi seperti Accurate dan MYOB.",
-    "Tujuan karier saya adalah berkontribusi di tim finance & accounting yang mengutamakan akurasi dan integritas data, sambil terus memperdalam keahlian di bidang audit dan analisis keuangan melalui sertifikasi profesional seperti Brevet Pajak dan CPSAK.",
+    "Lulusan Sarjana Akuntansi (S.Ak.) Universitas Muhammadiyah Bandung dengan IPK 3,76/4,00 dan minat pada financial accounting, financial reporting, perpajakan, serta audit. Saya terbiasa bekerja secara teliti dan sistematis dalam mengolah data, memverifikasi informasi keuangan, dan memastikan setiap proses berjalan sesuai prosedur.",
+    "Saya memahami siklus akuntansi secara menyeluruh, mulai dari pencatatan transaksi hingga penyusunan laporan keuangan. Di bidang perpajakan, pemahaman saya diperkuat oleh sertifikasi Brevet Pajak A & B dan Certified Tax Technician (CTT), serta pengalaman langsung sebagai Relawan Pajak yang mendampingi wajib pajak dalam pelaporan SPT Tahunan PPh Orang Pribadi dan meraih Sertifikat Silver.",
+    "Dalam praktik, saya telah mengerjakan proyek audit menggunakan ATLAS, mengelola pencatatan transaksi terkomputerisasi dengan Accurate, dan menganalisis data penelitian kuantitatif menggunakan SPSS.",
+    "Sebagai fresh graduate, saya mencari kesempatan berkarier di bidang Accounting, Finance, Tax, atau Audit pada lingkungan kerja yang menjunjung ketelitian, integritas, tanggung jawab, dan akurasi informasi.",
   ],
   focusAreas: [
-    "Penyusunan Laporan Keuangan",
-    "Akuntansi Dasar & Menengah",
-    "Analisis Laporan Keuangan",
-    "Perpajakan (PPh & PPN)",
-    "Dasar-Dasar Audit",
-    "Pengelolaan Data Keuangan",
+    "Siklus Akuntansi & Laporan Keuangan",
+    "Perpajakan (Brevet A & B, CTT)",
+    "Audit & Kertas Kerja (ATLAS)",
+    "Software Akuntansi Accurate",
+    "Analisis Data Kuantitatif (SPSS)",
     "Microsoft Excel & Spreadsheet",
-    "Software Akuntansi",
+    "Pelaporan SPT Tahunan PPh OP",
+    "Administrasi & Dokumentasi Kas",
   ],
 };
 
 export type Skill = { name: string; level: number; note: string };
 
 export const skills: Skill[] = [
-  { name: "Financial Accounting", level: 88, note: "Siklus akuntansi penuh, jurnal hingga laporan" },
-  { name: "Financial Reporting", level: 85, note: "Laporan laba rugi, neraca, arus kas" },
-  { name: "Taxation", level: 78, note: "PPh 21/23, PPN, e-Filing dasar" },
-  { name: "Auditing", level: 70, note: "Audit sampling & kertas kerja dasar" },
-  { name: "Financial Analysis", level: 82, note: "Analisis rasio & tren keuangan" },
-  { name: "Bookkeeping", level: 90, note: "Pencatatan transaksi harian yang rapi" },
-  { name: "Microsoft Excel", level: 92, note: "Pivot table, VLOOKUP, formula keuangan" },
-  { name: "Microsoft Office", level: 88, note: "Word, PowerPoint untuk pelaporan" },
-  { name: "Data Analysis", level: 75, note: "Pengolahan & visualisasi data keuangan" },
-  { name: "Accounting Software", level: 80, note: "Accurate, MYOB, dasar SAP" },
+  {
+    name: "Akuntansi & Pelaporan Keuangan",
+    level: 92,
+    note: "Siklus akuntansi, jurnal, buku besar, penyusunan laporan keuangan, serta administrasi keuangan",
+  },
+  {
+    name: "Perpajakan",
+    level: 90,
+    note: "PPh Orang Pribadi, pelaporan SPT Tahunan, administrasi perpajakan (Brevet A & B, CTT)",
+  },
+  {
+    name: "Audit & Dokumentasi",
+    level: 86,
+    note: "Prosedur audit, penyusunan kertas kerja, identifikasi temuan, dan rekomendasi (ATLAS)",
+  },
+  {
+    name: "Accurate Accounting Software",
+    level: 88,
+    note: "Pencatatan transaksi dan penyusunan laporan keuangan terkomputerisasi",
+  },
+  {
+    name: "Microsoft Excel",
+    level: 90,
+    note: "Pengolahan data keuangan, formula spreadsheet, dan rekapitulasi transaksi",
+  },
+  {
+    name: "Analisis Data SPSS",
+    level: 85,
+    note: "Uji validitas, uji reliabilitas, dan analisis data statistik kuantitatif",
+  },
+  {
+    name: "Software ATLAS",
+    level: 84,
+    note: "Penyusunan kertas kerja audit dan dokumentasi prosedur pemeriksaan",
+  },
+  {
+    name: "Administrasi & Tata Kelola Keuangan",
+    level: 90,
+    note: "Pengarsipan bukti transaksi, penyusunan LPJ, dan manajemen kas",
+  },
 ];
 
 export type EducationItem = {
@@ -66,22 +97,23 @@ export type EducationItem = {
 export const education: EducationItem[] = [
   {
     id: "EDU-01",
-    institution: "Universitas Indonesia",
+    institution: "Universitas Muhammadiyah Bandung",
     program: "S1 Akuntansi, Fakultas Ekonomi dan Bisnis",
     degreeAwarded: "Sarjana Akuntansi (S.Ak.)",
-    startYear: "2020",
-    endYear: "2024",
-    gpa: "3.72 / 4.00",
-    note: "Skripsi: Analisis Pengaruh Rasio Likuiditas terhadap Kinerja Keuangan Perusahaan Manufaktur",
+    startYear: "2022",
+    endYear: "2026",
+    gpa: "3,76 / 4,00",
+    note: "Skripsi: Transparansi & Akuntabilitas Laporan Keuangan Koperasi",
   },
   {
     id: "EDU-02",
-    institution: "SMA Negeri 3 Jakarta",
+    institution: "SMA Muhammadiyah Singaparna",
     program: "Jurusan IPS",
     degreeAwarded: "Ijazah SMA",
-    startYear: "2017",
-    endYear: "2020",
-    gpa: "88.5 / 100",
+    startYear: "2019",
+    endYear: "2022",
+    gpa: "90,35 / 100",
+    note: "Rata-rata nilai ijazah: 90,35 / 100",
   },
 ];
 
@@ -90,56 +122,70 @@ export type ExperienceItem = {
   org: string;
   role: string;
   period: string;
-  type: "Magang" | "Organisasi" | "Proyek Akademik";
+  type: "Organisasi" | "Volunteer" | "Kepanitiaan" | "Magang" | "Proyek Akademik";
   points: string[];
+  certificateLink?: string;
 };
 
 export const experience: ExperienceItem[] = [
   {
     id: "EXP-01",
-    org: "KAP Sudrajat & Rekan",
-    role: "Intern Auditor",
-    period: "Jun 2023 — Ags 2023",
-    type: "Magang",
+    org: "Tax Center Universitas Muhammadiyah Bandung",
+    role: "Bendahara",
+    period: "2024 — 2025",
+    type: "Organisasi",
     points: [
-      "Membantu proses audit laporan keuangan untuk 4 klien di sektor ritel dan manufaktur",
-      "Menyusun kertas kerja audit (working paper) dan melakukan vouching dokumen transaksi",
-      "Melakukan rekonsiliasi bank dan konfirmasi piutang untuk 12 akun klien",
+      "Mengelola pencatatan pemasukan dan pengeluaran seluruh kegiatan Tax Center.",
+      "Menyusun Laporan Pertanggungjawaban (LPJ) atas penggunaan dana kegiatan.",
+      "Mengarsipkan bukti transaksi dan dokumentasi keuangan secara tertib dan sistematis.",
     ],
   },
   {
     id: "EXP-02",
-    org: "PT Nusantara Retail Indonesia",
-    role: "Finance & Accounting Intern",
-    period: "Jan 2023 — Mar 2023",
-    type: "Magang",
+    org: "KPP Pratama Kabupaten Sumedang",
+    role: "Relawan Pajak",
+    period: "2025",
+    type: "Volunteer",
     points: [
-      "Mencatat transaksi harian ke dalam sistem Accurate untuk 3 cabang toko",
-      "Membantu penyusunan laporan arus kas bulanan dan rekap pengeluaran operasional",
-      "Menyusun rekonsiliasi stok dengan tim gudang, mengurangi selisih pencatatan sebesar 15%",
+      "Mendampingi wajib pajak dalam pelaporan SPT Tahunan PPh Orang Pribadi sesuai prosedur yang berlaku.",
+      "Menjelaskan tahapan dan informasi yang dibutuhkan agar proses pelaporan berjalan lancar.",
+      "Melayani wajib pajak secara langsung sehingga melatih komunikasi, ketelitian, dan orientasi pelayanan.",
+      "Pencapaian: Meraih Sertifikat Silver Relawan Pajak 2025.",
     ],
+    certificateLink: "/certificate/relawan_pajak.pdf",
   },
   {
     id: "EXP-03",
-    org: "Himpunan Mahasiswa Akuntansi FEB UI",
-    role: "Kepala Divisi Keuangan",
-    period: "2022 — 2023",
-    type: "Organisasi",
+    org: "Program KIP Kuliah",
+    role: "Relawan KIP Kuliah",
+    period: "2024",
+    type: "Volunteer",
     points: [
-      "Mengelola anggaran organisasi senilai Rp85.000.000 untuk 9 program kerja",
-      "Menyusun laporan pertanggungjawaban keuangan yang diaudit oleh dewan pengawas",
-      "Merancang sistem pencatatan kas berbasis Google Sheets untuk transparansi antar divisi",
+      "Memberikan informasi dan pendampingan kepada calon penerima terkait proses pendaftaran KIP Kuliah.",
+      "Membantu peserta memahami persyaratan dan tahapan yang harus dipenuhi.",
+      "Menjawab kebutuhan informasi peserta secara komunikatif selama kegiatan.",
     ],
   },
   {
     id: "EXP-04",
-    org: "Program Studi Akuntansi UI",
-    role: "Asisten Praktikum Akuntansi Keuangan Menengah",
-    period: "2022",
-    type: "Proyek Akademik",
+    org: "Yayasan Al Amanah",
+    role: "Panitia Pelatihan Kepeloporan Pemuda",
+    period: "2023",
+    type: "Kepanitiaan",
     points: [
-      "Membantu 40+ mahasiswa memahami penyusunan laporan keuangan sesuai PSAK",
-      "Mengoreksi tugas praktikum dan memberikan umpan balik studi kasus akuntansi",
+      "Terlibat dalam persiapan dan pelaksanaan pelatihan sesuai pembagian tugas kepanitiaan.",
+      "Berkoordinasi dengan panitia lain agar kegiatan berjalan sesuai rencana.",
+    ],
+  },
+  {
+    id: "EXP-05",
+    org: "IPM Luwisari",
+    role: "Panitia PKDTM 1",
+    period: "2022",
+    type: "Kepanitiaan",
+    points: [
+      "Terlibat dalam persiapan dan pelaksanaan kegiatan PKDTM 1 sesuai tanggung jawab yang diberikan.",
+      "Berkoordinasi dengan tim untuk mendukung kelancaran acara.",
     ],
   },
 ];
@@ -150,56 +196,64 @@ export type Project = {
   description: string;
   tools: string[];
   outcome: string;
+  certificateLink?: string;
 };
 
 export const projects: Project[] = [
   {
     id: "PRJ-01",
-    title: "Analisis Rasio Keuangan Emiten Sektor Konsumer",
+    title: "Audit PT Patra Makmur Sejahtera",
     description:
-      "Menganalisis likuiditas, solvabilitas, dan profitabilitas 5 emiten sektor barang konsumer selama periode 2019—2023 menggunakan laporan tahunan publik.",
-    tools: ["Microsoft Excel", "Laporan Tahunan", "Analisis Rasio"],
-    outcome: "Menemukan korelasi antara current ratio dan pertumbuhan laba bersih pasca-pandemi",
+      "Simulasi audit perusahaan yang dikerjakan secara berkelompok untuk menerapkan prosedur audit pada data dan informasi keuangan.",
+    tools: ["ATLAS", "Kertas Kerja Audit", "Audit Procedure"],
+    outcome:
+      "Menyusun kertas kerja dan dokumentasi audit menggunakan ATLAS serta mendokumentasikan proses pemeriksaan secara sistematis dan terstruktur.",
   },
   {
     id: "PRJ-02",
-    title: "Penyusunan Laporan Keuangan UMKM Simulasi",
+    title: "Audit Internal SMP Buana Raya Kota Bandung",
     description:
-      "Menyusun laporan keuangan lengkap (laba rugi, neraca, arus kas) untuk studi kasus UMKM fiktif berdasarkan 200+ transaksi simulasi selama satu tahun buku.",
-    tools: ["Microsoft Excel", "Accurate"],
-    outcome: "Laporan keuangan balanced dengan selisih neraca nol dan siap diaudit",
+      "Praktik audit internal pada lembaga pendidikan berdasarkan data dan informasi yang diberikan untuk memeriksa kondisi operasional keuangan.",
+    tools: ["Audit Internal", "Kertas Kerja", "Analisis Data"],
+    outcome:
+      "Memeriksa data, mengidentifikasi kondisi audit, dan menyusun temuan audit beserta rekomendasi perbaikan dalam laporan audit internal.",
   },
   {
     id: "PRJ-03",
-    title: "Simulasi Perhitungan & Pelaporan PPh 21",
+    title: "Penyusunan Laporan Keuangan",
     description:
-      "Menghitung PPh Pasal 21 karyawan tetap untuk 30 skenario gaji berbeda, termasuk PTKP dan tunjangan, serta menyusun bukti potong.",
-    tools: ["Microsoft Excel", "Peraturan Perpajakan"],
-    outcome: "Modul perhitungan otomatis yang mengurangi waktu kalkulasi manual hingga 70%",
+      "Praktik penyusunan laporan keuangan dari transaksi mentah secara komprehensif, selaras dengan materi Uji Kompetensi Ikatan Akuntan Indonesia (IAI).",
+    tools: ["Siklus Akuntansi", "Jurnal & Buku Besar", "Laporan Keuangan"],
+    outcome:
+      "Mencatat dan mengolah transaksi sesuai siklus akuntansi serta menghasilkan laporan keuangan utuh dari data transaksi yang diberikan.",
+    certificateLink: "/certificate/IAI.pdf",
   },
   {
     id: "PRJ-04",
-    title: "Dashboard Keuangan Interaktif",
+    title: "Pencatatan Transaksi dengan Accurate",
     description:
-      "Membangun dashboard arus kas dan profitabilitas bulanan menggunakan pivot table dan chart dinamis untuk memantau kesehatan keuangan bisnis simulasi.",
-    tools: ["Microsoft Excel", "Power BI"],
-    outcome: "Dashboard satu halaman yang menyajikan 6 indikator keuangan utama secara real-time",
+      "Studi kasus pengelolaan transaksi keuangan secara terkomputerisasi menggunakan software akuntansi Accurate.",
+    tools: ["Accurate", "Accounting Software", "Financial Reporting"],
+    outcome:
+      "Menginput berbagai jenis transaksi, mengelola data transaksi, dan menghasilkan laporan keuangan otomatis melalui aplikasi Accurate.",
   },
   {
     id: "PRJ-05",
-    title: "Proyek Audit Akademik: Siklus Pendapatan",
+    title: "Skripsi: Transparansi & Akuntabilitas Laporan Keuangan Koperasi",
     description:
-      "Melakukan audit akademik terhadap siklus pendapatan perusahaan simulasi, mengidentifikasi kelemahan pengendalian internal dan menyusun rekomendasi.",
-    tools: ["Kertas Kerja Audit", "Internal Control Checklist"],
-    outcome: "Mengidentifikasi 4 celah pengendalian internal beserta rekomendasi perbaikannya",
+      "Penelitian kuantitatif mengenai pengaruh transparansi dan akuntabilitas laporan keuangan terhadap tingkat kepercayaan anggota koperasi.",
+    tools: ["SPSS", "Kuesioner", "Metodologi Penelitian"],
+    outcome:
+      "Mengumpulkan data primer via kuesioner, menguji validitas dan reliabilitas instrumen, serta melakukan uji statistik sebagai dasar kesimpulan.",
   },
   {
     id: "PRJ-06",
-    title: "Sistem Pencatatan Keuangan Kas Kecil",
+    title: "Pengolahan & Analisis Data Penelitian dengan SPSS",
     description:
-      "Merancang sistem pencatatan kas kecil sederhana berbasis spreadsheet untuk organisasi kampus dengan validasi otomatis agar saldo selalu balanced.",
-    tools: ["Google Sheets", "Spreadsheet Formula"],
-    outcome: "Diadopsi oleh 3 divisi organisasi untuk pencatatan kas harian",
+      "Pengolahan data penelitian kuantitatif menggunakan SPSS untuk memastikan instrumen penelitian memenuhi standar uji statistik.",
+    tools: ["SPSS", "Uji Reliabilitas", "Statistik Kuantitatif"],
+    outcome:
+      "Melakukan analisis statistik sesuai kebutuhan penelitian serta menyajikan dan menginterpretasikan hasil pengujian untuk mendukung riset.",
   },
 ];
 
@@ -208,15 +262,59 @@ export type Certification = {
   name: string;
   issuer: string;
   year: string;
+  certNumber?: string;
   link?: string;
+  points?: string[];
 };
 
 export const certifications: Certification[] = [
-  { id: "CERT-01", name: "Brevet Pajak A & B", issuer: "Ikatan Konsultan Pajak Indonesia", year: "2024", link: "#" },
-  { id: "CERT-02", name: "Certified Accounting Professional (CAP)", issuer: "Institut Akuntan Publik Indonesia", year: "2024", link: "#" },
-  { id: "CERT-03", name: "Financial Modeling & Valuation", issuer: "Corporate Finance Institute", year: "2023", link: "#" },
-  { id: "CERT-04", name: "Excel for Financial Analysis", issuer: "Coursera — University of Pennsylvania", year: "2023", link: "#" },
-  { id: "CERT-05", name: "Dasar-Dasar SAP FI/CO", issuer: "SAP Learning Hub", year: "2023", link: "#" },
+  {
+    id: "CERT-01",
+    name: "Uji Kompetensi Praktik Akuntansi IAI",
+    issuer: "Ikatan Akuntan Indonesia (IAI) Wilayah Jawa Barat",
+    year: "2026",
+    certNumber: "No. 2881/SERT/IAI-JB/VII/2026",
+    link: "/certificate/IAI.pdf",
+    points: [
+      "Dinyatakan kompeten dalam mengelola buku jurnal, buku besar, dan siklus akuntansi penuh.",
+      "Uji praktik akuntansi terstandar Ikatan Akuntan Indonesia Wilayah Jawa Barat.",
+    ],
+  },
+  {
+    id: "CERT-02",
+    name: "Kursus Pajak Terapan Brevet A & B Terpadu",
+    issuer: "Tax Center Universitas Muhammadiyah Bandung & Padyangan School of Tax",
+    year: "2025",
+    certNumber: "No. 085/AK-UMB/2025016",
+    link: "/certificate/Brevet.pdf",
+    points: [
+      "Seluruh mata uji meraih predikat Nilai A (KUP 81, PPh OP 86.67, PPh Potput 82, PPN/PPnBM 80, PPh Badan 80, PBB/BPHTB 83, Akuntansi Pajak 80).",
+      "Menguasai administrasi ketentuan perpajakan, pelaporan SPT elektronik, dan perencanaan pajak.",
+    ],
+  },
+  {
+    id: "CERT-03",
+    name: "Certified Tax Technician (CTT)",
+    issuer: "Asosiasi Teknisi Perpajakan Indonesia (ATPI)",
+    year: "2026",
+    certNumber: "No. 024.315/PTSP-TP/ATPI/III/2026",
+    link: "/certificate/CTT.pdf",
+    points: [
+      "Gelar profesi resmi Teknisi Perpajakan Madya (Brevet A&B) tersertifikasi ATPI.",
+      "Kompetensi teknis perpajakan PPh Orang Pribadi, PPh Badan, dan kepatuhan administrasi fiskal.",
+    ],
+  },
+  {
+    id: "CERT-04",
+    name: "Piagam Penghargaan Relawan Pajak (Predikat Perak / Silver)",
+    issuer: "Direktorat Jenderal Pajak (DJP) & Renjani — KPP Pratama Sumedang",
+    year: "2025",
+    link: "/certificate/relawan_pajak.pdf",
+    points: [
+      "Penghargaan resmi Renjani (Relawan Pajak Untuk Negeri) dari Direktorat Jenderal Pajak.",
+      "Mendampingi wajib pajak secara langsung dalam pelaporan SPT Tahunan PPh Orang Pribadi.",
+    ],
+  },
 ];
 
 export type Achievement = {
@@ -224,28 +322,67 @@ export type Achievement = {
   title: string;
   issuer: string;
   year: string;
-  category: "Akademik" | "Kompetisi" | "Beasiswa" | "Organisasi";
+  category: "Akademik" | "Kompetisi" | "Beasiswa" | "Organisasi" | "Penghargaan";
+  link?: string;
 };
 
 export const achievements: Achievement[] = [
-  { id: "ACH-01", title: "Cum Laude, IPK 3.72", issuer: "Universitas Indonesia", year: "2024", category: "Akademik" },
-  { id: "ACH-02", title: "Juara 2, Lomba Studi Kasus Akuntansi Nasional", issuer: "Ikatan Mahasiswa Akuntansi Indonesia", year: "2023", category: "Kompetisi" },
-  { id: "ACH-03", title: "Penerima Beasiswa Unggulan", issuer: "Kementerian Pendidikan RI", year: "2021—2024", category: "Beasiswa" },
-  { id: "ACH-04", title: "Finalis Olimpiade Akuntansi Tingkat Universitas", issuer: "Universitas Indonesia", year: "2022", category: "Kompetisi" },
-  { id: "ACH-05", title: "Kepala Divisi Keuangan Terbaik", issuer: "Himpunan Mahasiswa Akuntansi FEB UI", year: "2023", category: "Organisasi" },
+  {
+    id: "ACH-01",
+    title: "Juara 2 — Accounting Got Talent (ASST Seri Nasional Ke-1)",
+    issuer: "Universitas Muhammadiyah Bandung",
+    year: "2022",
+    category: "Kompetisi",
+    link: "/certificate/juara2_accounting_sesminar.png",
+  },
+  {
+    id: "ACH-02",
+    title: "Lulus S1 Akuntansi dengan IPK 3,76 / 4,00",
+    issuer: "Universitas Muhammadiyah Bandung",
+    year: "2026",
+    category: "Akademik",
+  },
+  {
+    id: "ACH-03",
+    title: "Meraih Sertifikat Silver pada Program Relawan Pajak 2025",
+    issuer: "KPP Pratama Kabupaten Sumedang",
+    year: "2025",
+    category: "Penghargaan",
+    link: "/certificate/relawan_pajak.pdf",
+  },
+  {
+    id: "ACH-04",
+    title: "Pemegang Sertifikasi Brevet Pajak A & B dan Certified Tax Technician (CTT)",
+    issuer: "Lembaga Sertifikasi Perpajakan",
+    year: "2025",
+    category: "Kompetisi",
+  },
+  {
+    id: "ACH-05",
+    title: "Mengikuti Uji Kompetensi Ikatan Akuntan Indonesia (IAI)",
+    issuer: "Ikatan Akuntan Indonesia",
+    year: "2026",
+    category: "Akademik",
+    link: "/certificate/IAI.pdf",
+  },
+  {
+    id: "ACH-06",
+    title: "Lulus SMA dengan Rata-rata Nilai Ijazah 90,35 / 100",
+    issuer: "SMA Muhammadiyah Singaparna",
+    year: "2022",
+    category: "Akademik",
+  },
 ];
 
 export type Tool = { name: string; category: string };
 
 export const tools: Tool[] = [
-  { name: "Microsoft Excel", category: "Spreadsheet" },
-  { name: "Microsoft Word", category: "Dokumen" },
-  { name: "Microsoft PowerPoint", category: "Presentasi" },
   { name: "Accurate", category: "Software Akuntansi" },
-  { name: "MYOB", category: "Software Akuntansi" },
-  { name: "SAP", category: "Enterprise" },
-  { name: "Google Sheets", category: "Spreadsheet" },
-  { name: "Power BI", category: "Data Analysis" },
+  { name: "ATLAS", category: "Software Audit" },
+  { name: "SPSS", category: "Analisis Data Statistik" },
+  { name: "Microsoft Excel", category: "Spreadsheet & Formula" },
+  { name: "Microsoft Word", category: "Dokumentasi & Administrasi" },
+  { name: "Microsoft PowerPoint", category: "Presentasi & Laporan" },
 ];
 
 export const socials = [
