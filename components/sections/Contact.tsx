@@ -6,7 +6,6 @@ const contactRows = [
   { label: "Email", value: profile.email, href: `mailto:${profile.email}` },
   { label: "Telepon", value: profile.phone, href: `tel:${profile.phone.replace(/[^+\d]/g, "")}` },
   { label: "LinkedIn", value: profile.linkedin, href: `https://${profile.linkedin}` },
-  { label: "GitHub", value: profile.github, href: `https://${profile.github}` },
   { label: "Lokasi", value: profile.location },
 ];
 

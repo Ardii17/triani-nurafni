@@ -386,7 +386,6 @@ export const tools: Tool[] = [
 
 export const socials = [
   { label: "LinkedIn", href: `https://${profile.linkedin}` },
-  { label: "GitHub", href: `https://${profile.github}` },
   { label: "Email", href: `mailto:${profile.email}` },
 ];
 
