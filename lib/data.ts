@@ -14,7 +14,7 @@ export const profile = {
   email: "trianinurafni03@gmail.com",
   phone: "+62 821-3090-2040",
   linkedin: "linkedin.com/in/trianinurafni",
-  cvFile: "/CV.pdf",
+  cvFile: "/CV_V2.pdf",
   availability: "Terbuka untuk posisi Accounting, Finance, Tax, atau Audit (Fresh Graduate)",
 };
 
